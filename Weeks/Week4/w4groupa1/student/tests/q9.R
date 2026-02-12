@@ -6,7 +6,7 @@ test = list(
       name = NA,
       points = 1.0,
       code = {
-        question.correct <- identical(tolower(q9.answer), "b")
+        question.correct <- identical(tolower(q9.answer), "c")
         testthat::expect_true(question.correct,
                                     info = "Try again!")
       }
