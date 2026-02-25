@@ -6,7 +6,7 @@ test = list(
       name = NA,
       points = 1.0,
       code = {
-        question.correct <- identical(q1b, round(output_dm_coethnic$std.error,3))
+        question.correct <- identical(q1b, 0.159)
         testthat::expect_true(question.correct,
           info = "Make sure you rounded to three digits!")
       }
